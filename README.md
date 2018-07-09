@@ -7,7 +7,7 @@ This is a very simple proxy server to get around CORS issues when an API does no
 ## How to use.
 This is live at proxy.hackeryou.com. 
 
-The set up is very simple, when you make a request with `$.ajax` you might right it like this.
+The set up is very simple, when you make a request with `$.ajax` you might write it like this.
 
 	$.ajax({
 		url: 'http://api.site.com/api',
@@ -22,7 +22,7 @@ The set up is very simple, when you make a request with `$.ajax` you might right
 		...
 	});
 
-However because of CORS you might not be able to access the API this way. If the API does not offer JSONP you can use this proxy to bypass the CORS issue. To use this proxy you have to change you request to look like this.
+However because of CORS you might not be able to access the API this way. If the API does not offer JSONP you can use this proxy to bypass the CORS issue. To use this proxy you have to change your request to look like this.
 
 	$.ajax({
 		url: 'http://proxy.hackeryou.com',
